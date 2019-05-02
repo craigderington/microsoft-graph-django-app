@@ -1,0 +1,9 @@
+body {
+    padding-top: 80px;
+}
+
+.alert-pre {
+    word-wrap: break-word;
+    word-break: breal-all;
+    white-space: pre-wrap;
+}
