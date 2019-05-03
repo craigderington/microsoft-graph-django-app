@@ -1,13 +1,13 @@
 {% extends "tutorial/_layout.html" %}
 	{% block content %}
 		<div class="jumbotron">
-  		  	<h1>Microsoft Graph Django Tutorial</h1>
+  		  	<h1><i class="fas fa-chart-area"></i> Microsoft Graph Django Tutorial</h1>
   		  	<p class="lead">This sample app shows how to use the Microsoft Graph API to access Outlook and OneDrive data from Django/Python.</p>
   		  	{% if user.is_authenticated %}
     		<h4>Welcome {{ user.name }}!</h4>
     			<p>Use the navigation bar at the top of the page to get started.</p>
   			{% else %}
-    			<a href="#" class="btn btn-primary btn-large"><i class="fas fa-sign-in-alt"></i> Sign In</a>
+    			<a href="{% url 'signin' %}" class="btn btn-primary btn-large"><i class="fas fa-sign-in-alt"></i> Sign In</a>
   			{% endif %}
 		</div>
    {% endblock %}

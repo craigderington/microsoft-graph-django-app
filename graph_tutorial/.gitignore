@@ -3,3 +3,4 @@ oauth_settings.yml
 *.pyc
 *.sqlite
 *.DS_Store
+*.vscode

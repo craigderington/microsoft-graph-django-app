@@ -25,7 +25,7 @@ SECRET_KEY = '288rk)%4s4)9*a(wturfgmtq*y)!s%bx2t^p)(k4ogxt@*f%&o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["localhost", "graph-django-app.ngrok.io"]
 
 
 # Application definition
